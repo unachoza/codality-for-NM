@@ -1,0 +1,85 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+}
+.logo-container {
+  height: 5vh;
+  background-color: #4f4d53;
+}
+.logo {
+  position: absolute;
+  left: 20%;
+  top: 1vh;
+}
+.hero-img {
+  height: 35vh;
+  width: 100vw;
+  z-index: 1;
+}
+.main-content {
+  text-align: left;
+  margin: auto;
+  padding: 0px;
+  width: 60%;
+}
+h1 {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  color: #4f4d53;
+  font-weight: 900;
+  font-size: 64px;
+  z-index: 10;
+}
+h2 {
+  font-weight: 900;
+  color: #e8be02;
+  font-size: 40px;
+}
+h3 {
+  font-weight: 900;
+  color: #e8be02;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+h4 {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+}
+p {
+  font-weight: 400;
+  color: #4f4d53;
+  font-size: 14px;
+}
+footer {
+  position: fixed;
+  background-color: #4f4d53;
+  bottom: 0vh;
+  width: 100%;
+  height: 28vh;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 60%;
+}
+.column {
+  width: fit-content;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+}
+
+hr {
+  border: 10px solid #e8be02;
+}
